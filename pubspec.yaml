@@ -1,0 +1,57 @@
+name: prevent_screen_capture
+description: Plugin that protects against taking screenshot and screen recording.
+version: 0.0.1
+author: "Gladson S Brito"
+homepage: https://github.com/gladson/prevent_screen_captures
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.22.4"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.gladson.prevent_screen_capture
+        pluginClass: PreventScreenCapturePlugin
+      ios:
+        pluginClass: PreventScreenCapturePlugin
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
